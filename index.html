@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Parvathi Priya - Computer Applications Graduate specializing in Data Science and Machine Learning.">
+  <meta name="keywords" content="Parvathi Priya, Data Science, Machine Learning, Deep Learning, Python, Portfolio, Ballari Institute of Technology and Management">
+  <meta name="author" content="Parvathi Priya">
+  <title>Parvathi Priya | Data Science & Machine Learning Portfolio</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header / Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo" aria-label="Parvathi Priya Home">
+        <span class="logo-accent">&lt;</span>Parvathi Priya<span class="logo-accent">/&gt;</span>
+      </a>
+
+      <nav class="nav-links" id="nav-menu" aria-label="Main Navigation">
+        <ul>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="icon-btn" aria-label="Toggle light and dark theme" title="Toggle Theme">
+          <svg class="sun-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" style="display:none;"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+
+        <a href="https://github.com/parvathipriya" target="_blank" rel="noopener noreferrer" class="btn btn-outline nav-github-btn" aria-label="GitHub Profile">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          <span>GitHub</span>
+        </a>
+
+        <button id="hamburger" class="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero / About Section -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge-pill">
+            <span class="badge-dot"></span> Available for Data Science & ML Roles
+          </div>
+          <h1 class="hero-title">
+            Hi, I'm <span class="highlight">Parvathi Priya</span> 👋
+          </h1>
+          <h2 class="hero-subtitle">Data Science & Machine Learning Enthusiast</h2>
+          <p class="hero-description">
+            Computer Applications graduate with a passion for leveraging data-driven insights, predictive modeling, and deep learning algorithms to solve complex real-world challenges. Experienced in Python, SQL, machine learning workflows, and data analytics.
+          </p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">
+              View Projects
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            <a href="https://github.com/parvathipriya" target="_blank" rel="noopener noreferrer" class="btn btn-outline" aria-label="View GitHub Profile">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="code-card">
+            <div class="code-header">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <span class="code-title">data_scientist.py</span>
+            </div>
+            <pre class="code-body"><code><span class="keyword">class</span> <span class="class-name">DataScientist</span>:
+    <span class="keyword">def</span> <span class="function">__init__</span>(self):
+        self.name = <span class="string">"Parvathi Priya"</span>
+        self.degree = <span class="string">"CSE (Data Science)"</span>
+        self.cgpa = <span class="number">8.5</span>
+        self.skills = [<span class="string">"Python"</span>, <span class="string">"SQL"</span>, <span class="string">"ML"</span>, <span class="string">"DL"</span>]
+
+    <span class="keyword">def</span> <span class="function">solve_problem</span>(self, data):
+        model = self.build_deep_learning_model()
+        <span class="keyword">return</span> model.predict(data)</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="section-underline"></div>
+        <p class="section-lead">
+          I am a driven computer applications graduate with specialized training in Computer Science Engineering & Data Science. I bridge the gap between complex statistical models and practical software solutions.
+        </p>
+        <div class="about-grid">
+          <div class="about-card">
+            <div class="about-icon">📊</div>
+            <h3>Data Analytics</h3>
+            <p>Proficient in querying database systems with SQL, processing large datasets using Pandas & NumPy, and creating interactive dashboards in Power BI.</p>
+          </div>
+          <div class="about-card">
+            <div class="about-icon">🤖</div>
+            <h3>Machine Learning</h3>
+            <p>Experience in designing, training, and evaluating predictive models using classification, regression, and anomaly detection techniques.</p>
+          </div>
+          <div class="about-card">
+            <div class="about-icon">🧠</div>
+            <h3>Deep Learning</h3>
+            <p>Knowledgeable in TensorFlow/Keras for computer vision, neural networks, and sequence learning tasks like computer vision lip reading.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education-section bg-alt">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="section-underline"></div>
+
+        <div class="timeline">
+          <!-- Engineering Item -->
+          <div class="timeline-item">
+            <div class="timeline-badge">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            </div>
+            <div class="timeline-content card">
+              <div class="card-header">
+                <span class="period">Bachelor of Engineering</span>
+                <span class="score-badge">CGPA: 8.5</span>
+              </div>
+              <h3 class="degree-title">Computer Science & Engineering (Data Science)</h3>
+              <h4 class="institution-name">Ballari Institute of Technology and Management (BITM)</h4>
+              <p class="timeline-desc">
+                Specialized in core Data Science methodologies, machine learning algorithms, deep learning, database management systems, and soft engineering practices.
+              </p>
+              <div class="tag-group">
+                <span class="tag">Data Structures</span>
+                <span class="tag">Machine Learning</span>
+                <span class="tag">DBMS & SQL</span>
+                <span class="tag">Deep Learning</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- PUC Item -->
+          <div class="timeline-item">
+            <div class="timeline-badge">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+            </div>
+            <div class="timeline-content card">
+              <div class="card-header">
+                <span class="period">Pre-University Course (PUC)</span>
+                <span class="score-badge">Percentage: 86%</span>
+              </div>
+              <h3 class="degree-title">Senior Secondary Education</h3>
+              <h4 class="institution-name">BKG PU College</h4>
+              <p class="timeline-desc">
+                Completed pre-university education with strong academic standing in Science and Mathematics foundation.
+              </p>
+              <div class="tag-group">
+                <span class="tag">Mathematics</span>
+                <span class="tag">Physics</span>
+                <span class="tag">Chemistry</span>
+                <span class="tag">Computer Science</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="section-underline"></div>
+
+        <div class="skills-grid">
+          <!-- Skill Category 1 -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon-wrap">🐍</div>
+              <h3>Programming & Querying</h3>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-tag">
+                <span class="skill-name">Python</span>
+                <span class="skill-level">Advanced</span>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-name">SQL</span>
+                <span class="skill-level">Proficient</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Category 2 -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon-wrap">🧠</div>
+              <h3>AI & Machine Learning</h3>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-tag">
+                <span class="skill-name">Machine Learning</span>
+                <span class="skill-level">Proficient</span>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-name">Deep Learning</span>
+                <span class="skill-level">Proficient</span>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-name">TensorFlow</span>
+                <span class="skill-level">Intermediate</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Category 3 -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon-wrap">📐</div>
+              <h3>Data Libraries & Tools</h3>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-tag">
+                <span class="skill-name">NumPy</span>
+                <span class="skill-level">Proficient</span>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-name">Pandas</span>
+                <span class="skill-level">Proficient</span>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-name">Scikit-Learn</span>
+                <span class="skill-level">Proficient</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Category 4 -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon-wrap">📈</div>
+              <h3>Analytics & Visualization</h3>
+            </div>
+            <div class="skill-tags">
+              <div class="skill-tag">
+                <span class="skill-name">Power BI</span>
+                <span class="skill-level">Proficient</span>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-name">Data Visualization</span>
+                <span class="skill-level">Proficient</span>
+              </div>
+              <div class="skill-tag">
+                <span class="skill-name">Model Evaluation</span>
+                <span class="skill-level">Intermediate</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section bg-alt">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="section-underline"></div>
+        <p class="section-lead">Key projects demonstrating machine learning, deep learning, and data engineering capabilities.</p>
+
+        <div class="projects-grid">
+          <!-- Project 1: Fraudulent Transactions Detection -->
+          <article class="project-card">
+            <div class="project-banner">
+              <span class="project-category">Machine Learning</span>
+              <div class="project-icon-large">💳</div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Fraudulent Transactions Detection</h3>
+              <p class="project-description">
+                An intelligent anomaly detection and classification pipeline designed to identify high-risk financial transactions in real time. Implemented advanced feature preprocessing, SMOTE sampling for handling severe class imbalance, and evaluated multiple supervised ML models.
+              </p>
+              <div class="project-highlights">
+                <h4>Key Highlights:</h4>
+                <ul>
+                  <li>Achieved high precision and recall on imbalanced credit card transaction dataset.</li>
+                  <li>Handled outlier detection and feature normalization with Pandas & Scikit-Learn.</li>
+                  <li>Built interactive visual confusion matrix and ROC-AUC performance metrics.</li>
+                </ul>
+              </div>
+              <div class="project-tech">
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">Machine Learning</span>
+                <span class="tech-badge">SQL</span>
+                <span class="tech-badge">Pandas</span>
+                <span class="tech-badge">Scikit-Learn</span>
+              </div>
+              <div class="project-footer">
+                <a href="https://github.com/parvathipriya/fraudulent-transactions-detection" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                  View Code on GitHub
+                </a>
+                <button class="btn btn-sm btn-outline open-modal-btn" data-project="fraud">
+                  Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Lip Reading -->
+          <article class="project-card">
+            <div class="project-banner project-banner-alt">
+              <span class="project-category">Deep Learning & CV</span>
+              <div class="project-icon-large">👄</div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Lip Reading System</h3>
+              <p class="project-description">
+                A computer vision and deep learning framework that decodes spoken words from video sequences of lip movements. Combines 3D Convolutional Neural Networks (3D CNNs) and Recurrent Neural Networks (LSTM/GRU) for spatial-temporal feature extraction.
+              </p>
+              <div class="project-highlights">
+                <h4>Key Highlights:</h4>
+                <ul>
+                  <li>Processed silent video frames using OpenCV face landmark detection.</li>
+                  <li>Trained deep neural network models with TensorFlow/Keras on video sequence datasets.</li>
+                  <li>Applied CTC (Connectionist Temporal Classification) loss for sentence alignment.</li>
+                </ul>
+              </div>
+              <div class="project-tech">
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">Deep Learning</span>
+                <span class="tech-badge">TensorFlow</span>
+                <span class="tech-badge">NumPy</span>
+                <span class="tech-badge">OpenCV</span>
+              </div>
+              <div class="project-footer">
+                <a href="https://github.com/parvathipriya/lip-reading-system" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                  View Code on GitHub
+                </a>
+                <button class="btn btn-sm btn-outline open-modal-btn" data-project="lip">
+                  Details
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section certifications-section">
+      <div class="container">
+        <h2 class="section-title">Certifications & Achievements</h2>
+        <div class="section-underline"></div>
+
+        <div class="cert-grid">
+          <div class="cert-card">
+            <div class="cert-icon">📜</div>
+            <div class="cert-info">
+              <h3>Data Science & Machine Learning Certification</h3>
+              <p class="cert-issuer">BITM & Online Learning Platforms</p>
+              <p class="cert-desc">Hands-on practical specialization covering predictive modeling, exploratory data analysis, and statistical hypothesis testing.</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">🥇</div>
+            <div class="cert-info">
+              <h3>TensorFlow & Deep Learning Fundamentals</h3>
+              <p class="cert-issuer">Deep Learning Specialization</p>
+
+              <p class="cert-desc">Built neural network architectures, Convolutional Neural Networks (CNNs), and recurrent sequence models.</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">📊</div>
+            <div class="cert-info">
+              <h3>Power BI Data Analyst Certification</h3>
+              <p class="cert-issuer">Business Intelligence Track</p>
+              <p class="cert-desc">Designed interactive data visual dashboards, modeled complex relational schema, and formulated DAX expressions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section bg-alt">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="section-underline"></div>
+        <p class="section-lead">Interested in working together or discussing Data Science & Machine Learning opportunities?</p>
+
+        <div class="contact-wrapper">
+          <div class="contact-info-card">
+            <h3>Contact Information</h3>
+            <p>Feel free to reach out directly through email, LinkedIn, or check out my repositories on GitHub.</p>
+
+            <ul class="contact-list">
+              <li>
+                <div class="contact-icon">📧</div>
+                <div>
+                  <strong>Email</strong>
+                  <a href="mailto:parvathipriya@example.com">parvathipriya@example.com</a>
+                </div>
+              </li>
+              <li>
+                <div class="contact-icon">📍</div>
+                <div>
+                  <strong>Location</strong>
+                  <span>Ballari, Karnataka, India</span>
+                </div>
+              </li>
+              <li>
+                <div class="contact-icon">🎓</div>
+                <div>
+                  <strong>Education</strong>
+                  <span>CSE (Data Science) - BITM (CGPA 8.5)</span>
+                </div>
+              </li>
+              <li>
+                <div class="contact-icon">🐙</div>
+                <div>
+                  <strong>GitHub</strong>
+                  <a href="https://github.com/parvathipriya" target="_blank" rel="noopener noreferrer">github.com/parvathipriya</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <form class="contact-form" id="contact-form" onsubmit="return false;">
+            <h3>Send a Message</h3>
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="John Doe" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Hello Parvathi, I would like to connect with you regarding..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">Send Message</button>
+            <div id="form-status" class="form-status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Project Details Modal -->
+  <div id="project-modal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="modal-title">
+    <div class="modal-overlay" id="modal-overlay"></div>
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close-btn" aria-label="Close modal">&times;</button>
+      <h3 id="modal-title" class="modal-title">Project Title</h3>
+      <div id="modal-body" class="modal-body">
+        <!-- Content inserted dynamically by script.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>&copy; <span id="current-year"></span> Parvathi Priya. Built with ❤️ for Data Science & Machine Learning.</p>
+      <div class="footer-links">
+        <a href="https://github.com/parvathipriya" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="#hero">Back to Top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
